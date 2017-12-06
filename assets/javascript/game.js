@@ -16,7 +16,7 @@ var userGuess = null;
 
 // Method for Comp to randomly select a letter and store it inside secretLetter
 var secretLetter = alphabetLetters[Math.floor(Math.random() * alphabetLetters.length)];
-console.log("Wins: " + wins + " Losses: " + losses + " livesLeft: " + livesLeft + " Guesses so far: " + guessesSoFar + " Computer picked: " + secretLetter);
+console.log("Wins: " + wins + " Losses: " + losses + " livesLeft: " + livesLeft + " Guesses so far: " + guessesSoFar + " Comp choice: " + secretLetter);
 
 // Listening for a keystroke to begin game
 document.onkeyup = function(event) {
@@ -44,7 +44,7 @@ document.onkeyup = function(event) {
 		livesLeft = 9;
 		guessesSoFar = [];
 		secretLetter = alphabetLetters[Math.floor(Math.random() * alphabetLetters.length)];
-		console.log("Wins: " + wins + " Losses: " + losses + " livesLeft: " + livesLeft + " Guesses so far: " + guessesSoFar + " Computer picked: " + secretLetter);
+		console.log("Wins: " + wins + " Losses: " + losses + " livesLeft: " + livesLeft + " Guesses so far: " + guessesSoFar + " Comp choice: " + secretLetter);
 	}
 
 	// if livesLeft reaches 0
@@ -58,7 +58,7 @@ document.onkeyup = function(event) {
 		livesLeft = 9;
 		guessesSoFar = [];
 		secretLetter = alphabetLetters[Math.floor(Math.random() * alphabetLetters.length)];
-		console.log("Wins: " + wins + " Losses: " + losses + " livesLeft: " + livesLeft + " Guesses so far: " + guessesSoFar + " Computer picked: " + secretLetter);
+		console.log("Wins: " + wins + " Losses: " + losses + " livesLeft: " + livesLeft + " Guesses so far: " + guessesSoFar + " Comp choice: " + secretLetter);
 	}
 
 	// Game values to display in HTML
