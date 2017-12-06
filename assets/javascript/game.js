@@ -62,7 +62,7 @@ document.onkeyup = function(event) {
 	}
 
 	// Game values to display in HTML
-	var html = "<h1>Professor X's Game</h1>" + "<h4>Can guess what letter Professor X is thinking of?</h4>" + "<h4>Wins: " + wins + "</h4>" + "<h4>Losses: " + losses + "</h4>" + "<h4>Lives Left: " + livesLeft + "</h4>" + "<h4>Your guesses so far: " + guessesSoFar + "</h4>";
+	var html = "<h1>Professor X's Game</h1>" + "<h4>Can you guess what letter Professor X is thinking of?</h4>" + "<h4>Wins: " + wins + "</h4>" + "<h4>Losses: " + losses + "</h4>" + "<h4>Lives Left: " + livesLeft + "</h4>" + "<h4>Your guesses so far: " + guessesSoFar + "</h4>";
 	
 	// inset html into the game ID
 	document.querySelector("#game").innerHTML = html;
